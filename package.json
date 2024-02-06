@@ -1,0 +1,15 @@
+{
+  "name": "moha-nodejs",
+  "version": "1.0.0",
+  "description": "my simple Node js express App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammed Popoola",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mocha": "^10.2.0"
+  }
+}
