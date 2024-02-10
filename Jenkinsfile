@@ -5,16 +5,16 @@ pipeline {
         timeout(time: 10, unit: 'MINUTES')
      }
     environment {
-    ACR_NAME = "boboacrr"
-    registyUrl = "boboacrr.azurecr.io"
+    ACR_NAME = "kollyacr"
+    registyUrl = "kollyacr.azurecr.io"
     IMAGE_NAME = "nodejswebapp"
     IMAGE_TAG = "v1.0.0"
-    registryCredential  = "karo-acr"
+    registryCredential  = "kollyacr"
     }
     stages { 
         stage('SCM Checkout') {
             steps{
-           git branch: 'main', url: 'https://github.com/ooghenekaro/nodejs-webapp-2.git'
+           git branch: 'main', url: 'https://github.com/mopopoola/nodejs_webapp.git'
             }
         }
         // run sonarqube test
