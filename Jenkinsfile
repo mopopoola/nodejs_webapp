@@ -6,7 +6,7 @@ pipeline {
      }
     environment {
     ACR_NAME = "kollypopoolaacr"
-    registyUrl = "kollypopoolaacr.azurecr.io"
+    registryUrl = "kollypopoolaacr.azurecr.io"
     IMAGE_NAME = "nodejswebapp"
     IMAGE_TAG = "v1.0.0"
     registryCredential  = "popoola-Az-acr"
