@@ -5,8 +5,8 @@ pipeline {
         timeout(time: 10, unit: 'MINUTES')
      }
     environment {
-    ACR_NAME = "kollypopoolaacr"
-    registryUrl = "kollypopoolaacr.azurecr.io"
+    ACR_NAME = "madelekacr"
+    registryUrl = "madelekacr.azurecr.io"
     IMAGE_NAME = "nodejswebapp"
     IMAGE_TAG = "v1.0.0"
     registryCredential  = "popoola-Az-acr"
